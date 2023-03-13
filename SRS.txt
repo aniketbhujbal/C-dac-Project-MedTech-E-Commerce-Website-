@@ -1,0 +1,119 @@
+# THE MEDTECH (Ecommerce Website:Medical Equipment Store)
+
+## Document:
+System Requirement Specification Document
+
+## Title:
+
+
+## Team: 
+Direct Customer,Indirect Customer
+
+## Objective (Purpose):
+The online store  for Medical equipment, Web Application is intended to  provide complete solution for Vendors, HCP (healthcare person) as well as admin through a single Gateway using internet. It will enable Vendors to set up online store, HCP has to browse through virtual store and purchase products online without visiting the shop physically.
+  
+## Scope:
+This System allows Vendors to maintain thier product for adding or removing from catalog based on their availablity.
+Customer will be able to  review orders history and may able to cancel order.
+Admin can allow users to login and sign up , also admin can varify the Vendor and allow their products on Web Application.
+Admin will verfiy Customers for buying some Critical Care Equipments which required Authentication.
+
+## Definitions:
+	HCP: HealthCare Person
+	OSS: Online Shopping System
+	QA:  Quality Assurance
+	Portal: Peronalized Online Web Application
+	MIS: Management Information System
+	CRM: Customer Relation Managment
+	BI:  Business Intelligence
+	KPI:Key Perfomornace Index
+	Dashboard: Personalized information presented using  BI techniques such grid, score card, graph, KPI
+
+
+## Functional Requirements:
+
+Any annonymous User will be able to view different Products avaialble for sale. Any User will be able select Products to view from categories avaialble.
+Registered vendors will be able promote thier product for sale by adding products to the products catalog maintained by System.
+Admin will be able to approve or reject request for adding or removing products from product catalog by vendors.
+Admin will be to track and maintain stock of product available for sale. 
+Admin will be able to raise reqests for product updatation from product inventory.
+
+vendors will be able request to add new product to product catalog maintained by system.
+Admin will be able to approve or reject request raised by vendors for adding or removing products from products catalog.
+
+vendors will be able to update products details which have been already added to product catalog.
+products listing will be provided based their category, sale, quantity.
+Customers will be able to add or remove products from shopping cart. System will maintain shopping cart for each consumer to maintain list of items selected by him/her. Consumer will be able view all items from shopping cart. Shopping Cart will present product details, number of items of product selected by consumer with price and total. Consumer will be able procees for Order placement.
+Registered Customer will be able to place an order with the help of Shopping cart maintained by system. Registered Customer will be able to cancel placed order. Registered customer get orders history. Registered customer can get details of order from orderes been placed. 	
+Admin will be able get details of orders of a particular Customer. Admin will be able to cancel , reject or approve orders been placed by consumer due to some policies of Business.
+Customer will be provided options for payment such as through internet banking  or  UPI  or Online payment option.
+Customer will asked to submit their payment related information.Consumer will be redirected to payment gateway for secure payment transaction.On successful payment processing using payment gateway system will notify customer about transaction and order placement status.
+Customer will be able track order status.
+Customer will be able accept or return delivery based on quality received.
+Delivery person will be able get delivery details so that he can deliver product to customer end.
+Delivery person will be able to change the status of product delivered.
+Admin will be able to monitor shipment  done by their vendors.
+Admin will be able to track product delivery for particular customer.
+Customer will able to submit feedback about product they recived. Customer will able to  get details about product orders placed.
+Customer will be cancel his placed order. 
+Customer will be able to update his/ her personal information. 
+Customer  will be to manage his profile maintained by Admin.
+Customer will be able change his credentails if required. 
+/*Customer will be notified about order status, delivery status through  SMS, Email communication.*/
+Customer will be able to update his payment related information.
+vendors will be able track thier product sale being done through Web Application.
+	
+## NonFunctional Requirement:
+
+### Security
+Registered Customer will allowed to place an order.	
+System will provide access to  the content , operations using Role based security (Authorization) (Permissions based on Role)
+Using SSL in all transactions  which will be performed by Admin. It would protect confidential information shared by system.
+System will automatically log of  all Customers after some time due to inactiveness.
+System will block operations for inactive Customer and would redirect for authentication.
+System  will internally maintain secure communiction channel between Servers ( Web Servers, App Servers, databse Server)
+Sensitive data will be always encrypted across communcation.
+
+
+
+### Reliability
+Continous updates are matained , continous Adminstration is done to keep system operational.
+During peak hours system will maintain same user experaince by managing load balacning .
+
+### Availability
+uptime:   24* 7  available  99.999%
+	
+### Maintainability:
+A Commercial database software will be used to maintain System data Persistence.
+A readymade Web Server will be installed to host online shopping portal (Web Site) to management server capabilities.
+IT operations team will easily monitor and configure System using Adminstrative tools provided by Servers.
+Separate enviornment will be maintained for system for isolation in  production, testing, and development.
+
+### Portablility:
+PDA: Portable Device Application
+System will provide portable User Interface ( HTML, CSS, JS) through  users will be able to access online web application.
+System can be deployed to single server, multi server, to any OS, Cloud (Azure or AWS or GCP)
+
+### Accessibility:
+only registered customer will be able to place an order after authentication.
+Sales team can reject or approve  orders, shopper requests  based on role  provided.
+Shoppers will be able to see their product sale graph
+
+### Durability:
+System will retain customer  shopping cart  even though customer loose internet connection and join again.
+System will maintain wishlist for customer . customer  will be able to add products from wishlist  and add to shopping cart whenever needed.
+
+
+### Efficiency:
+on Festival season, maximum number of users  will place order, view products  with same response time.
+System will be able to manage all transactions with isolation.
+
+### Modularity:
+System will designed and developed using reusable, independent or dependent business senarios in the form of modules.
+These modules will be loosely coupled and highly cohesive.
+System will contain CRM , shopping cart, order processing, payment processing, Delivery module, membership and Roles managment  modules.
+
+
+### Safety:	
+online shopping portal will be always kept updated with latest anti virus software.
+Role based security will be applied for Application data and operations accessibility.
